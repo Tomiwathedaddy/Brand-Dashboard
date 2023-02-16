@@ -75,14 +75,22 @@ a:hover{
     #sidebar-wrapper {
       margin-left: 0;
     }
-  
+    
     #page-content-wrapper {
       min-width: 0;
       width: 100%;
     }
-  
+    
+    .box-content{
+        text-align: center;
+        overflow: hidden;
+    }
+    
     #wrapper.toggled #sidebar-wrapper {
       margin-left: -15rem;
     }
-  }
-  
+    .table{
+        overflow: hidden;
+        box-sizing: initial;
+    }
+}
